@@ -25,6 +25,18 @@ export default {
       image: "/images/categoryImages/cryptography.jpg",
       order: 1,
     },
+    {
+      name: "php",
+      color: "btn-warning",
+      image: "/images/categoryImages/php.png",
+      order: 1,
+    },
+    {
+      name: "lumen",
+      color: "btn-warning",
+      image: "/images/categoryImages/lumen.jpg",
+      order: 1,
+    },
   ],
   categorySettings: {
     order: "name", // name | count
