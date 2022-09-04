@@ -74,7 +74,7 @@ You can test the endpoint using **Postman** by sending a **GET** request to the 
 <pre>
 </pre>
 
-![postman/](../../../public/images/postImages/lumenAPI/1.png)
+![postman/](/images/postImages/lumenAPI/1.png)
 
 **. &nbsp;** **. &nbsp; .**
 
@@ -83,11 +83,11 @@ You can test the endpoint using **Postman** by sending a **GET** request to the 
 To create a database in MySQL server, you can use the PHPMyAdmin. I'll show you how to create a database with the command line.
 I'll take the database name as `'lumen_product'`.
 
-![MySQL](../../../public/images/postImages/lumenAPI/2.png)
+![MySQL](/images/postImages/lumenAPI/2.png)
 
 Once you done with the database, you can open the project with you favorite code editor and open **`.env`** file and do the configurations.
 
-![.env](../../../public/images/postImages/lumenAPI/3.png)
+![.env](/images/postImages/lumenAPI/3.png)
 
 The next step is to create database migration. Unlike laravel, you can't use **`make:model`** with **-m** option to automatically generate model and the migration in lumen. So i will create the `Migration` first and later I will create the `Model`.
 
