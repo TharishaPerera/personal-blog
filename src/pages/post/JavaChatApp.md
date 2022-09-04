@@ -1,11 +1,11 @@
 ---
 layout: ../../layouts/PostLayout.astro
-title: First example post with external an image
-image: https://api.lorem.space/image/drink?w=400&h=225
-date: 2022-01-21 05:44
+title: How to create a console chat application with encryption using java
+image: /images/postImages/javaChatApp.jpg
+date: 2022-09-04 10:45
 categories:
-  - lorem
-  - image
+  - java
+  - cryptography
 ---
 
 This article only contains lorem ipsum and image.
