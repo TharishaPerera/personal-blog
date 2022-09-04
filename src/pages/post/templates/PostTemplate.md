@@ -1,4 +1,4 @@
----
+<!-- ---
 layout: ../../layouts/PostLayout.astro
 title: Template
 image: /images/postImages/sampleImage.jpg
@@ -9,4 +9,4 @@ categories:
   - Tag 2
 ---
 
-Content here
+Content here -->
