@@ -7,7 +7,7 @@ categories:
   - java
   - cryptography
 ---
-In this article we will implement a console-based client/server chat application using Java sockets. This tutorial is about the backend implementation of this chat application using threads and encryption and decryption. I will explain the concepts and implementation step by step
+In this article we will implement a console-based client/server chat application using Java sockets. This tutorial is about the backend implementation of this chat application using threads and encryption and decryption. I will explain the concepts and implementation step by step.
 
 **. &nbsp;** **. &nbsp; .**
 
