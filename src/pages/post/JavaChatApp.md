@@ -7,13 +7,13 @@ categories:
   - java
   - cryptography
 ---
-In this article we will implement a console based client/server chat application using Java sockets. This tutorial is about the backend implementation of this chat application using threads and encryption and decryption. I will explain the concepts and implemention step by step
+In this article we will implement a console-based client/server chat application using Java sockets. This tutorial is about the backend implementation of this chat application using threads and encryption and decryption. I will explain the concepts and implementation step by step
 
 **. &nbsp;** **. &nbsp; .**
 
 **IMPLEMENTATION**
 
-Create a java project and create create two java classes, `'Server.java'` & `'Client.java'`.
+Create a java project and create two java classes, `'Server.java'` & `'Client.java'`.
 <pre>
 </pre>
 ![files](/images/postImages/javaChatApp/1.png)
@@ -32,14 +32,14 @@ Create a java project and create create two java classes, `'Server.java'` & `'Cl
 
 First, let's declare 5 objects.
   
-  1. 1 . ServerSocket ServerSocket
+  1. 1 . ServerSocket serverSocket
   2. 2 . Socket clientSocket
   3. 3 . BufferReader in
   4. 4 . PrintWriter out
 
 ![object declaration](/images/postImages/javaChatApp/4.png)
 
-Now, let's instanciate the serverSocket object. The ServerSocket constructor requires the port number that the server will use to listen to clients' requests. The instanciation should be done inside a try catch block.
+Now, let's instantiate the serverSocket object. The ServerSocket constructor requires the port number that the server will use to listen to clients' requests. The instantiation should be done inside a try catch block.
 
 ![serverSocket](/images/postImages/javaChatApp/5.png)
 
@@ -47,7 +47,7 @@ As the serverSocket is used by the server to listen to connection requests from 
 
 ![clientSocket](/images/postImages/javaChatApp/6.png)
 
-To instanciate `out`, we use the constructor of `PrintWriter` class, this constructor takes the output stream for the socket as a parameter, because it is responsible for sending data to client.
+To instantiate `out`, we use the constructor of `PrintWriter` class, this constructor takes the output stream for the socket as a parameter, because it is responsible for sending data to client.
 
 ![PrintWriter](/images/postImages/javaChatApp/7.png)
 
@@ -73,7 +73,7 @@ To instanciate `out`, we use the constructor of `PrintWriter` class, this constr
 You will see, the most of the codes are as same as the `Server.java`.
 ![client.java](/images/postImages/javaChatApp/10.png)
 
-Now, the `Client.java` also has two threads, one for sending data and the other for recieving data, they are implemented the same way as the `Server.java`'s threads.
+Now, the `Client.java` also has two threads, one for sending data and the other for receiving data, they are implemented the same way as the `Server.java`'s threads.
 
 `Sender Thread`
  ![SenderThread](/images/postImages/javaChatApp/11.png)
@@ -89,7 +89,7 @@ Now, the `Client.java` also has two threads, one for sending data and the other 
 
 **EXECUTION**
 
-Nopw let’s see how this works.
+Now let’s see how this works.
 
 First run the `Server.java` class then `Client.java` class.
 
