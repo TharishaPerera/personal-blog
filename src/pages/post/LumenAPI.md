@@ -6,6 +6,7 @@ date: 2022-09-05 00:00
 categories:
   - php
   - lumen
+  - java
 ---
 
 **CREATE SIMPLE CRUD REST API WITH LUMEN FRAMEWORK**
