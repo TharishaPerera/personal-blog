@@ -106,3 +106,13 @@ The next step is to create database migration. Unlike laravel, you can't use **`
 </pre>
 
 The above command will create a migration file with the name given before **`create_product_table`** inside **`database/migrations`** directory.
+
+Now we can create the product schema. Open the created migration file and add some basic data fields inside the **`CreateProductTable`** class, inside the **`public function up()`**.
+- Name
+- Price
+- Category
+
+
+
+
+
