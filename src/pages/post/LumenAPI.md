@@ -108,11 +108,19 @@ The next step is to create database migration. Unlike laravel, you can't use **`
 The above command will create a migration file with the name given before **`create_product_table`** inside **`database/migrations`** directory.
 
 Now we can create the product schema. Open the created migration file and add some basic data fields inside the **`CreateProductTable`** class, inside the **`public function up()`**.
-- ○ Name
+- ○ Title
 - ○ Price
-- ○ Category
+- ○ Photo
+- ○ Description
 
+![schema](/images/postImages/lumenAPI/4.png)
 
+Once we are done with the `schema`, we have to create a `Model Class` named `Products.php`.
+But before that, Keep in mind that **`Lumen don't have Facade nor Eloquent enabled by default`**, so we have to uncomment the following lines in **`bootstrap/app.php`**
 
+- ○ $app->withFacades();
+- ○ $aoo->withEloquent();
 
+Next thing is to create the **`Product.php`** file inside the `app/Models` directory.
 
+![model](/images/postImages/lumenAPI/5.png)
