@@ -10,6 +10,7 @@ export default {
     // twitter: "ismailozcelik",
     linkedin: "https://www.linkedin.com/in/tharisha-perera",
     github: "https://github.com/TharishaPerera",
+    portfolio: "https://tharishaperera.netlify.app/",
   },
   pageSize: 5,
   categories: [
